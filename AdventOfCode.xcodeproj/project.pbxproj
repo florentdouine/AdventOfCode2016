@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0298B91E02A32700E5B093 /* Puzzle15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0298B81E02A32700E5B093 /* Puzzle15.swift */; };
+		4A034C931D735CB000C244E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A034C921D735CB000C244E6 /* AppDelegate.swift */; };
+		4A034C951D735CB000C244E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A034C941D735CB000C244E6 /* Assets.xcassets */; };
+		4A034C981D735CB000C244E6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A034C961D735CB000C244E6 /* MainMenu.xib */; };
+		4A1A54651DFE653D0064B6A1 /* Puzzle12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1A54641DFE653D0064B6A1 /* Puzzle12.swift */; };
+		4A1A54671DFE67050064B6A1 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1A54661DFE67050064B6A1 /* Instruction.swift */; };
+		4A20DFF31E015D07004DBFFC /* Puzzle14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A20DFF21E015D07004DBFFC /* Puzzle14.swift */; };
+		4A27B2AD1E013CBB006C4889 /* Puzzle13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A27B2AC1E013CBB006C4889 /* Puzzle13.swift */; };
+		4A290E781E0D30D300294882 /* Puzzle22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A290E771E0D30D300294882 /* Puzzle22.swift */; };
+		4A40B9531E095CB700C4A817 /* Puzzle19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A40B9521E095CB700C4A817 /* Puzzle19.swift */; };
+		4A4C7B0A1DFBC22800E49707 /* Puzzle10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C7B091DFBC22800E49707 /* Puzzle10.swift */; };
+		4A6143901DF91EA40037D10E /* Puzzle8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61438F1DF91EA40037D10E /* Puzzle8.swift */; };
+		4A6143931DF920C80037D10E /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6143911DF920C80037D10E /* Light.swift */; };
+		4A6143941DF920C80037D10E /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6143921DF920C80037D10E /* Grid.swift */; };
+		4A6C39AB1DFAA7F100691C4A /* Puzzle9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C39AA1DFAA7F100691C4A /* Puzzle9.swift */; };
+		4A6C8BE21DF5C99B00277E73 /* Puzzle4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C8BE11DF5C99B00277E73 /* Puzzle4.swift */; };
+		4A6C8BE41DF5CA3200277E73 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C8BE31DF5CA3200277E73 /* Utils.swift */; };
+		4A6C8BE61DF5DB6300277E73 /* Puzzle5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C8BE51DF5DB6300277E73 /* Puzzle5.swift */; };
+		4A6C8BE81DF5DEEE00277E73 /* Puzzle6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C8BE71DF5DEEE00277E73 /* Puzzle6.swift */; };
+		4A7EF12F1E0D7B9500A65C82 /* Puzzle23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EF12E1E0D7B9500A65C82 /* Puzzle23.swift */; };
+		4A8D63631E0BE79B0058EC8F /* Puzzle21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D63621E0BE79B0058EC8F /* Puzzle21.swift */; };
+		4A9C3F691E0AAC8E00CBCE9E /* Puzzle20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C3F681E0AAC8E00CBCE9E /* Puzzle20.swift */; };
+		4AA7DF191E03AB5600EE4C50 /* Puzzle16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7DF181E03AB5600EE4C50 /* Puzzle16.swift */; };
+		4AB925FE1DFD695600B29A09 /* Puzzle11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB925FD1DFD695600B29A09 /* Puzzle11.swift */; };
+		4AC215441E05E73A0072EADF /* Puzzle17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC215431E05E73A0072EADF /* Puzzle17.swift */; };
+		4AC215461E0681DC0072EADF /* Puzzle18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC215451E0681DC0072EADF /* Puzzle18.swift */; };
+		4ACEA1361D7A211000318DD3 /* Puzzle1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACEA1351D7A211000318DD3 /* Puzzle1.swift */; };
+		4ACEA1381D7A213C00318DD3 /* PuzzleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACEA1371D7A213C00318DD3 /* PuzzleProtocol.swift */; };
+		4ACEA13B1D7A229400318DD3 /* Puzzle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACEA13A1D7A229400318DD3 /* Puzzle2.swift */; };
+		4AD03F351DF2884700618268 /* Puzzle3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD03F341DF2884700618268 /* Puzzle3.swift */; };
+		4AD12BFA1E114987000702E1 /* Puzzle24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD12BF91E114987000702E1 /* Puzzle24.swift */; };
+		4AD12BFC1E118CDB000702E1 /* Puzzle25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD12BFB1E118CDB000702E1 /* Puzzle25.swift */; };
+		4AD12C121E119044000702E1 /* Puzzle25.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12BFF1E119044000702E1 /* Puzzle25.txt */; };
+		4AD12C131E119044000702E1 /* Puzzle24.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C001E119044000702E1 /* Puzzle24.txt */; };
+		4AD12C141E119044000702E1 /* Puzzle23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C011E119044000702E1 /* Puzzle23.txt */; };
+		4AD12C151E119044000702E1 /* Puzzle22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C021E119044000702E1 /* Puzzle22.txt */; };
+		4AD12C161E119044000702E1 /* Puzzle20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C031E119044000702E1 /* Puzzle20.txt */; };
+		4AD12C171E119044000702E1 /* Puzzle16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C041E119044000702E1 /* Puzzle16.txt */; };
+		4AD12C181E119044000702E1 /* Puzzle14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C051E119044000702E1 /* Puzzle14.txt */; };
+		4AD12C191E119044000702E1 /* Puzzle12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C061E119044000702E1 /* Puzzle12.txt */; };
+		4AD12C1A1E119044000702E1 /* Puzzle10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C071E119044000702E1 /* Puzzle10.txt */; };
+		4AD12C1B1E119044000702E1 /* Puzzle9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C081E119044000702E1 /* Puzzle9.txt */; };
+		4AD12C1C1E119044000702E1 /* Puzzle8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C091E119044000702E1 /* Puzzle8.txt */; };
+		4AD12C1D1E119044000702E1 /* Puzzle7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C0A1E119044000702E1 /* Puzzle7.txt */; };
+		4AD12C1E1E119044000702E1 /* Puzzle6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C0B1E119044000702E1 /* Puzzle6.txt */; };
+		4AD12C1F1E119044000702E1 /* Puzzle4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C0C1E119044000702E1 /* Puzzle4.txt */; };
+		4AD12C201E119044000702E1 /* Puzzle3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C0D1E119044000702E1 /* Puzzle3.txt */; };
+		4AD12C211E119044000702E1 /* Puzzle2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C0E1E119044000702E1 /* Puzzle2.txt */; };
+		4AD12C221E119044000702E1 /* Puzzle1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C0F1E119044000702E1 /* Puzzle1.txt */; };
+		4AD12C231E119044000702E1 /* Puzzle19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C101E119044000702E1 /* Puzzle19.txt */; };
+		4AD12C241E119044000702E1 /* Puzzle15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD12C111E119044000702E1 /* Puzzle15.txt */; };
+		4ADCBB1B1DF835FF004737D2 /* Puzzle7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCBB1A1DF835FF004737D2 /* Puzzle7.swift */; };
+		4AE63FDC1DF0651700C8EEA6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE63FDB1DF0651700C8EEA6 /* StringExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A0298B81E02A32700E5B093 /* Puzzle15.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle15.swift; sourceTree = "<group>"; };
+		4A034C8F1D735CB000C244E6 /* AdventOfCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A034C921D735CB000C244E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A034C941D735CB000C244E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A034C971D735CB000C244E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4A034C991D735CB000C244E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A1A54641DFE653D0064B6A1 /* Puzzle12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle12.swift; sourceTree = "<group>"; };
+		4A1A54661DFE67050064B6A1 /* Instruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
+		4A20DFF21E015D07004DBFFC /* Puzzle14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle14.swift; sourceTree = "<group>"; };
+		4A27B2AC1E013CBB006C4889 /* Puzzle13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle13.swift; sourceTree = "<group>"; };
+		4A28F36A1D7AAA18005EE2E6 /* AdventOfCode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdventOfCode-Bridging-Header.h"; sourceTree = "<group>"; };
+		4A290E771E0D30D300294882 /* Puzzle22.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle22.swift; sourceTree = "<group>"; };
+		4A40B9521E095CB700C4A817 /* Puzzle19.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle19.swift; sourceTree = "<group>"; };
+		4A4C7B091DFBC22800E49707 /* Puzzle10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle10.swift; sourceTree = "<group>"; };
+		4A61438F1DF91EA40037D10E /* Puzzle8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle8.swift; sourceTree = "<group>"; };
+		4A6143911DF920C80037D10E /* Light.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		4A6143921DF920C80037D10E /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		4A6C39AA1DFAA7F100691C4A /* Puzzle9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle9.swift; sourceTree = "<group>"; };
+		4A6C8BE11DF5C99B00277E73 /* Puzzle4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle4.swift; sourceTree = "<group>"; };
+		4A6C8BE31DF5CA3200277E73 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		4A6C8BE51DF5DB6300277E73 /* Puzzle5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle5.swift; sourceTree = "<group>"; };
+		4A6C8BE71DF5DEEE00277E73 /* Puzzle6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle6.swift; sourceTree = "<group>"; };
+		4A7EF12E1E0D7B9500A65C82 /* Puzzle23.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle23.swift; sourceTree = "<group>"; };
+		4A8D63621E0BE79B0058EC8F /* Puzzle21.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle21.swift; sourceTree = "<group>"; };
+		4A9C3F681E0AAC8E00CBCE9E /* Puzzle20.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle20.swift; sourceTree = "<group>"; };
+		4AA6D4461D954D3600A22FE8 /* AdventOfCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AdventOfCode.playground; sourceTree = "<group>"; };
+		4AA7DF181E03AB5600EE4C50 /* Puzzle16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle16.swift; sourceTree = "<group>"; };
+		4AB925FD1DFD695600B29A09 /* Puzzle11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle11.swift; sourceTree = "<group>"; };
+		4AC215431E05E73A0072EADF /* Puzzle17.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle17.swift; sourceTree = "<group>"; };
+		4AC215451E0681DC0072EADF /* Puzzle18.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle18.swift; sourceTree = "<group>"; };
+		4ACEA1351D7A211000318DD3 /* Puzzle1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle1.swift; sourceTree = "<group>"; };
+		4ACEA1371D7A213C00318DD3 /* PuzzleProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleProtocol.swift; sourceTree = "<group>"; };
+		4ACEA13A1D7A229400318DD3 /* Puzzle2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle2.swift; sourceTree = "<group>"; };
+		4AD03F341DF2884700618268 /* Puzzle3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle3.swift; sourceTree = "<group>"; };
+		4AD12BF91E114987000702E1 /* Puzzle24.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle24.swift; sourceTree = "<group>"; };
+		4AD12BFB1E118CDB000702E1 /* Puzzle25.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle25.swift; sourceTree = "<group>"; };
+		4AD12BFF1E119044000702E1 /* Puzzle25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle25.txt; sourceTree = "<group>"; };
+		4AD12C001E119044000702E1 /* Puzzle24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle24.txt; sourceTree = "<group>"; };
+		4AD12C011E119044000702E1 /* Puzzle23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle23.txt; sourceTree = "<group>"; };
+		4AD12C021E119044000702E1 /* Puzzle22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle22.txt; sourceTree = "<group>"; };
+		4AD12C031E119044000702E1 /* Puzzle20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle20.txt; sourceTree = "<group>"; };
+		4AD12C041E119044000702E1 /* Puzzle16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle16.txt; sourceTree = "<group>"; };
+		4AD12C051E119044000702E1 /* Puzzle14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle14.txt; sourceTree = "<group>"; };
+		4AD12C061E119044000702E1 /* Puzzle12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle12.txt; sourceTree = "<group>"; };
+		4AD12C071E119044000702E1 /* Puzzle10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle10.txt; sourceTree = "<group>"; };
+		4AD12C081E119044000702E1 /* Puzzle9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle9.txt; sourceTree = "<group>"; };
+		4AD12C091E119044000702E1 /* Puzzle8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle8.txt; sourceTree = "<group>"; };
+		4AD12C0A1E119044000702E1 /* Puzzle7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle7.txt; sourceTree = "<group>"; };
+		4AD12C0B1E119044000702E1 /* Puzzle6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle6.txt; sourceTree = "<group>"; };
+		4AD12C0C1E119044000702E1 /* Puzzle4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle4.txt; sourceTree = "<group>"; };
+		4AD12C0D1E119044000702E1 /* Puzzle3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle3.txt; sourceTree = "<group>"; };
+		4AD12C0E1E119044000702E1 /* Puzzle2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle2.txt; sourceTree = "<group>"; };
+		4AD12C0F1E119044000702E1 /* Puzzle1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle1.txt; sourceTree = "<group>"; };
+		4AD12C101E119044000702E1 /* Puzzle19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle19.txt; sourceTree = "<group>"; };
+		4AD12C111E119044000702E1 /* Puzzle15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Puzzle15.txt; sourceTree = "<group>"; };
+		4ADCBB1A1DF835FF004737D2 /* Puzzle7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle7.swift; sourceTree = "<group>"; };
+		4AE63FDB1DF0651700C8EEA6 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A034C8C1D735CB000C244E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A034C861D735CB000C244E6 = {
+			isa = PBXGroup;
+			children = (
+				4A034C911D735CB000C244E6 /* AdventOfCode */,
+				4A034C901D735CB000C244E6 /* Products */,
+				4A28F36A1D7AAA18005EE2E6 /* AdventOfCode-Bridging-Header.h */,
+				4AA6D4461D954D3600A22FE8 /* AdventOfCode.playground */,
+			);
+			sourceTree = "<group>";
+		};
+		4A034C901D735CB000C244E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A034C8F1D735CB000C244E6 /* AdventOfCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A034C911D735CB000C244E6 /* AdventOfCode */ = {
+			isa = PBXGroup;
+			children = (
+				4AD12BFE1E11901D000702E1 /* Input */,
+				4AD12BFD1E118CF9000702E1 /* Ressources */,
+				4ACEA1351D7A211000318DD3 /* Puzzle1.swift */,
+				4ACEA13A1D7A229400318DD3 /* Puzzle2.swift */,
+				4AD03F341DF2884700618268 /* Puzzle3.swift */,
+				4A6C8BE11DF5C99B00277E73 /* Puzzle4.swift */,
+				4A6C8BE51DF5DB6300277E73 /* Puzzle5.swift */,
+				4A6C8BE71DF5DEEE00277E73 /* Puzzle6.swift */,
+				4ADCBB1A1DF835FF004737D2 /* Puzzle7.swift */,
+				4A61438F1DF91EA40037D10E /* Puzzle8.swift */,
+				4A6C39AA1DFAA7F100691C4A /* Puzzle9.swift */,
+				4A4C7B091DFBC22800E49707 /* Puzzle10.swift */,
+				4AB925FD1DFD695600B29A09 /* Puzzle11.swift */,
+				4A1A54641DFE653D0064B6A1 /* Puzzle12.swift */,
+				4A27B2AC1E013CBB006C4889 /* Puzzle13.swift */,
+				4A20DFF21E015D07004DBFFC /* Puzzle14.swift */,
+				4A0298B81E02A32700E5B093 /* Puzzle15.swift */,
+				4AA7DF181E03AB5600EE4C50 /* Puzzle16.swift */,
+				4AC215431E05E73A0072EADF /* Puzzle17.swift */,
+				4AC215451E0681DC0072EADF /* Puzzle18.swift */,
+				4A40B9521E095CB700C4A817 /* Puzzle19.swift */,
+				4A9C3F681E0AAC8E00CBCE9E /* Puzzle20.swift */,
+				4A8D63621E0BE79B0058EC8F /* Puzzle21.swift */,
+				4A290E771E0D30D300294882 /* Puzzle22.swift */,
+				4A7EF12E1E0D7B9500A65C82 /* Puzzle23.swift */,
+				4AD12BF91E114987000702E1 /* Puzzle24.swift */,
+				4AD12BFB1E118CDB000702E1 /* Puzzle25.swift */,
+			);
+			path = AdventOfCode;
+			sourceTree = "<group>";
+		};
+		4AD12BFD1E118CF9000702E1 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				4A034C921D735CB000C244E6 /* AppDelegate.swift */,
+				4A034C941D735CB000C244E6 /* Assets.xcassets */,
+				4A6143921DF920C80037D10E /* Grid.swift */,
+				4A034C991D735CB000C244E6 /* Info.plist */,
+				4A1A54661DFE67050064B6A1 /* Instruction.swift */,
+				4A6143911DF920C80037D10E /* Light.swift */,
+				4A034C961D735CB000C244E6 /* MainMenu.xib */,
+				4ACEA1371D7A213C00318DD3 /* PuzzleProtocol.swift */,
+				4AE63FDB1DF0651700C8EEA6 /* StringExtensions.swift */,
+				4A6C8BE31DF5CA3200277E73 /* Utils.swift */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		4AD12BFE1E11901D000702E1 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				4AD12BFF1E119044000702E1 /* Puzzle25.txt */,
+				4AD12C001E119044000702E1 /* Puzzle24.txt */,
+				4AD12C011E119044000702E1 /* Puzzle23.txt */,
+				4AD12C021E119044000702E1 /* Puzzle22.txt */,
+				4AD12C031E119044000702E1 /* Puzzle20.txt */,
+				4AD12C041E119044000702E1 /* Puzzle16.txt */,
+				4AD12C051E119044000702E1 /* Puzzle14.txt */,
+				4AD12C061E119044000702E1 /* Puzzle12.txt */,
+				4AD12C071E119044000702E1 /* Puzzle10.txt */,
+				4AD12C081E119044000702E1 /* Puzzle9.txt */,
+				4AD12C091E119044000702E1 /* Puzzle8.txt */,
+				4AD12C0A1E119044000702E1 /* Puzzle7.txt */,
+				4AD12C0B1E119044000702E1 /* Puzzle6.txt */,
+				4AD12C0C1E119044000702E1 /* Puzzle4.txt */,
+				4AD12C0D1E119044000702E1 /* Puzzle3.txt */,
+				4AD12C0E1E119044000702E1 /* Puzzle2.txt */,
+				4AD12C0F1E119044000702E1 /* Puzzle1.txt */,
+				4AD12C101E119044000702E1 /* Puzzle19.txt */,
+				4AD12C111E119044000702E1 /* Puzzle15.txt */,
+			);
+			name = Input;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A034C8E1D735CB000C244E6 /* AdventOfCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A034C9C1D735CB000C244E6 /* Build configuration list for PBXNativeTarget "AdventOfCode" */;
+			buildPhases = (
+				4A034C8B1D735CB000C244E6 /* Sources */,
+				4A034C8C1D735CB000C244E6 /* Frameworks */,
+				4A034C8D1D735CB000C244E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventOfCode;
+			productName = AdventOfCode;
+			productReference = 4A034C8F1D735CB000C244E6 /* AdventOfCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A034C871D735CB000C244E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Florent Douine";
+				TargetAttributes = {
+					4A034C8E1D735CB000C244E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 4A034C8A1D735CB000C244E6 /* Build configuration list for PBXProject "AdventOfCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A034C861D735CB000C244E6;
+			productRefGroup = 4A034C901D735CB000C244E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A034C8E1D735CB000C244E6 /* AdventOfCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A034C8D1D735CB000C244E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD12C221E119044000702E1 /* Puzzle1.txt in Resources */,
+				4AD12C1B1E119044000702E1 /* Puzzle9.txt in Resources */,
+				4AD12C231E119044000702E1 /* Puzzle19.txt in Resources */,
+				4AD12C181E119044000702E1 /* Puzzle14.txt in Resources */,
+				4AD12C151E119044000702E1 /* Puzzle22.txt in Resources */,
+				4AD12C1A1E119044000702E1 /* Puzzle10.txt in Resources */,
+				4AD12C161E119044000702E1 /* Puzzle20.txt in Resources */,
+				4AD12C121E119044000702E1 /* Puzzle25.txt in Resources */,
+				4AD12C171E119044000702E1 /* Puzzle16.txt in Resources */,
+				4AD12C1F1E119044000702E1 /* Puzzle4.txt in Resources */,
+				4AD12C201E119044000702E1 /* Puzzle3.txt in Resources */,
+				4AD12C1C1E119044000702E1 /* Puzzle8.txt in Resources */,
+				4A034C951D735CB000C244E6 /* Assets.xcassets in Resources */,
+				4AD12C141E119044000702E1 /* Puzzle23.txt in Resources */,
+				4AD12C1D1E119044000702E1 /* Puzzle7.txt in Resources */,
+				4AD12C241E119044000702E1 /* Puzzle15.txt in Resources */,
+				4AD12C191E119044000702E1 /* Puzzle12.txt in Resources */,
+				4AD12C1E1E119044000702E1 /* Puzzle6.txt in Resources */,
+				4AD12C211E119044000702E1 /* Puzzle2.txt in Resources */,
+				4AD12C131E119044000702E1 /* Puzzle24.txt in Resources */,
+				4A034C981D735CB000C244E6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A034C8B1D735CB000C244E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A034C931D735CB000C244E6 /* AppDelegate.swift in Sources */,
+				4ACEA13B1D7A229400318DD3 /* Puzzle2.swift in Sources */,
+				4ADCBB1B1DF835FF004737D2 /* Puzzle7.swift in Sources */,
+				4ACEA1381D7A213C00318DD3 /* PuzzleProtocol.swift in Sources */,
+				4A4C7B0A1DFBC22800E49707 /* Puzzle10.swift in Sources */,
+				4A6C8BE61DF5DB6300277E73 /* Puzzle5.swift in Sources */,
+				4AB925FE1DFD695600B29A09 /* Puzzle11.swift in Sources */,
+				4A27B2AD1E013CBB006C4889 /* Puzzle13.swift in Sources */,
+				4AA7DF191E03AB5600EE4C50 /* Puzzle16.swift in Sources */,
+				4A6143941DF920C80037D10E /* Grid.swift in Sources */,
+				4AD12BFA1E114987000702E1 /* Puzzle24.swift in Sources */,
+				4A1A54671DFE67050064B6A1 /* Instruction.swift in Sources */,
+				4A40B9531E095CB700C4A817 /* Puzzle19.swift in Sources */,
+				4AC215441E05E73A0072EADF /* Puzzle17.swift in Sources */,
+				4A6C39AB1DFAA7F100691C4A /* Puzzle9.swift in Sources */,
+				4A0298B91E02A32700E5B093 /* Puzzle15.swift in Sources */,
+				4A290E781E0D30D300294882 /* Puzzle22.swift in Sources */,
+				4A7EF12F1E0D7B9500A65C82 /* Puzzle23.swift in Sources */,
+				4A6C8BE21DF5C99B00277E73 /* Puzzle4.swift in Sources */,
+				4A9C3F691E0AAC8E00CBCE9E /* Puzzle20.swift in Sources */,
+				4A6143901DF91EA40037D10E /* Puzzle8.swift in Sources */,
+				4A6143931DF920C80037D10E /* Light.swift in Sources */,
+				4AC215461E0681DC0072EADF /* Puzzle18.swift in Sources */,
+				4AD03F351DF2884700618268 /* Puzzle3.swift in Sources */,
+				4A6C8BE81DF5DEEE00277E73 /* Puzzle6.swift in Sources */,
+				4A1A54651DFE653D0064B6A1 /* Puzzle12.swift in Sources */,
+				4AD12BFC1E118CDB000702E1 /* Puzzle25.swift in Sources */,
+				4A20DFF31E015D07004DBFFC /* Puzzle14.swift in Sources */,
+				4ACEA1361D7A211000318DD3 /* Puzzle1.swift in Sources */,
+				4AE63FDC1DF0651700C8EEA6 /* StringExtensions.swift in Sources */,
+				4A8D63631E0BE79B0058EC8F /* Puzzle21.swift in Sources */,
+				4A6C8BE41DF5CA3200277E73 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A034C961D735CB000C244E6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A034C971D735CB000C244E6 /* Base */,
+			);
+			name = MainMenu.xib;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A034C9A1D735CB000C244E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A034C9B1D735CB000C244E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		4A034C9D1D735CB000C244E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AdventOfCode/Ressources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fd.AdventOfCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AdventOfCode-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4A034C9E1D735CB000C244E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AdventOfCode/Ressources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fd.AdventOfCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AdventOfCode-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A034C8A1D735CB000C244E6 /* Build configuration list for PBXProject "AdventOfCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A034C9A1D735CB000C244E6 /* Debug */,
+				4A034C9B1D735CB000C244E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A034C9C1D735CB000C244E6 /* Build configuration list for PBXNativeTarget "AdventOfCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A034C9D1D735CB000C244E6 /* Debug */,
+				4A034C9E1D735CB000C244E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A034C871D735CB000C244E6 /* Project object */;
+}
